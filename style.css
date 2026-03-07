@@ -299,3 +299,43 @@ p {
     font-size: 42px;
   }
 }
+.quick-check {
+  background: #ffffff;
+}
+
+.quick-check-grid {
+  margin-top: 20px;
+}
+
+.quick-check-grid .grid-card p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.sticky-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(16, 44, 71, 0.96);
+  padding: 12px 16px;
+  text-align: center;
+  z-index: 999;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.sticky-cta a {
+  display: inline-block;
+  background: #ffffff;
+  color: #102c47;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+@media (min-width: 901px) {
+  .sticky-cta {
+    display: none;
+  }
+}
