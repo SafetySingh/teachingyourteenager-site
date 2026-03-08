@@ -171,7 +171,28 @@ h3 {
   color: var(--muted);
   font-size: 15px;
 }
+.price-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 0 8px;
+}
 
+.old-price {
+  font-size: 28px;
+  color: var(--muted);
+  text-decoration: line-through;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.discount-note {
+  margin: 0 0 8px;
+  color: #b45309;
+  font-size: 15px;
+  font-weight: 700;
+}
 .price {
   font-size: 52px;
   font-weight: 700;
