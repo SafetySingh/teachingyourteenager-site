@@ -360,3 +360,15 @@ p {
     display: none;
   }
 }
+.skool-banner {
+  background: #f1f5f9;
+  text-align: center;
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #334155;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.skool-banner p {
+  margin: 0;
+}
